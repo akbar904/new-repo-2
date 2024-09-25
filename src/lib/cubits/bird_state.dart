@@ -1,4 +1,5 @@
 
+
 import 'package:equatable/equatable.dart';
 
 abstract class BirdState extends Equatable {
@@ -42,3 +43,4 @@ class Bird {
 	@override
 	List<Object> get props => [id, name, description];
 }
+
