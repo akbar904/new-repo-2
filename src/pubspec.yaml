@@ -1,9 +1,9 @@
 name: com.example.bird_app
 description: A comprehensive Flutter application for managing and viewing various bird species using the Cubit pattern for state management.
-version: 1.0.0+1
+version: 1.0.0
+
 environment:
   sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=2.10.0"
 
 dependencies:
   flutter:
@@ -19,3 +19,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/app_icon.png
